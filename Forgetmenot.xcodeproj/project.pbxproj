@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A944F5189FAA01004BE0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A944F4189FAA01004BE0EA /* Foundation.framework */; };
+		F5A944F7189FAA01004BE0EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A944F6189FAA01004BE0EA /* CoreGraphics.framework */; };
+		F5A944F9189FAA01004BE0EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A944F8189FAA01004BE0EA /* UIKit.framework */; };
+		F5A944FF189FAA01004BE0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A944FD189FAA01004BE0EA /* InfoPlist.strings */; };
+		F5A94501189FAA01004BE0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A94500189FAA01004BE0EA /* main.m */; };
+		F5A94505189FAA01004BE0EA /* BSLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A94504189FAA01004BE0EA /* BSLAppDelegate.m */; };
+		F5A94507189FAA01004BE0EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A94506189FAA01004BE0EA /* Images.xcassets */; };
+		F5A9450E189FAA01004BE0EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A9450D189FAA01004BE0EA /* XCTest.framework */; };
+		F5A9450F189FAA01004BE0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A944F4189FAA01004BE0EA /* Foundation.framework */; };
+		F5A94510189FAA01004BE0EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A944F8189FAA01004BE0EA /* UIKit.framework */; };
+		F5A94518189FAA01004BE0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A94516189FAA01004BE0EA /* InfoPlist.strings */; };
+		F5A9451A189FAA01004BE0EA /* ForgetmenotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A94519189FAA01004BE0EA /* ForgetmenotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A94511189FAA01004BE0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A944E9189FAA01004BE0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A944F0189FAA01004BE0EA;
+			remoteInfo = Forgetmenot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5A944F1189FAA01004BE0EA /* Forgetmenot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forgetmenot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A944F4189FAA01004BE0EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5A944F6189FAA01004BE0EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5A944F8189FAA01004BE0EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5A944FC189FAA01004BE0EA /* Forgetmenot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forgetmenot-Info.plist"; sourceTree = "<group>"; };
+		F5A944FE189FAA01004BE0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5A94500189FAA01004BE0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5A94502189FAA01004BE0EA /* Forgetmenot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forgetmenot-Prefix.pch"; sourceTree = "<group>"; };
+		F5A94503189FAA01004BE0EA /* BSLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSLAppDelegate.h; sourceTree = "<group>"; };
+		F5A94504189FAA01004BE0EA /* BSLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSLAppDelegate.m; sourceTree = "<group>"; };
+		F5A94506189FAA01004BE0EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5A9450C189FAA01004BE0EA /* ForgetmenotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgetmenotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A9450D189FAA01004BE0EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5A94515189FAA01004BE0EA /* ForgetmenotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForgetmenotTests-Info.plist"; sourceTree = "<group>"; };
+		F5A94517189FAA01004BE0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5A94519189FAA01004BE0EA /* ForgetmenotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetmenotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A944EE189FAA01004BE0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A944F7189FAA01004BE0EA /* CoreGraphics.framework in Frameworks */,
+				F5A944F9189FAA01004BE0EA /* UIKit.framework in Frameworks */,
+				F5A944F5189FAA01004BE0EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A94509189FAA01004BE0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A9450E189FAA01004BE0EA /* XCTest.framework in Frameworks */,
+				F5A94510189FAA01004BE0EA /* UIKit.framework in Frameworks */,
+				F5A9450F189FAA01004BE0EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A944E8189FAA01004BE0EA = {
+			isa = PBXGroup;
+			children = (
+				F5A944FA189FAA01004BE0EA /* Forgetmenot */,
+				F5A94513189FAA01004BE0EA /* ForgetmenotTests */,
+				F5A944F3189FAA01004BE0EA /* Frameworks */,
+				F5A944F2189FAA01004BE0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A944F2189FAA01004BE0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A944F1189FAA01004BE0EA /* Forgetmenot.app */,
+				F5A9450C189FAA01004BE0EA /* ForgetmenotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A944F3189FAA01004BE0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A944F4189FAA01004BE0EA /* Foundation.framework */,
+				F5A944F6189FAA01004BE0EA /* CoreGraphics.framework */,
+				F5A944F8189FAA01004BE0EA /* UIKit.framework */,
+				F5A9450D189FAA01004BE0EA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A944FA189FAA01004BE0EA /* Forgetmenot */ = {
+			isa = PBXGroup;
+			children = (
+				F5A94503189FAA01004BE0EA /* BSLAppDelegate.h */,
+				F5A94504189FAA01004BE0EA /* BSLAppDelegate.m */,
+				F5A94506189FAA01004BE0EA /* Images.xcassets */,
+				F5A944FB189FAA01004BE0EA /* Supporting Files */,
+			);
+			path = Forgetmenot;
+			sourceTree = "<group>";
+		};
+		F5A944FB189FAA01004BE0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A944FC189FAA01004BE0EA /* Forgetmenot-Info.plist */,
+				F5A944FD189FAA01004BE0EA /* InfoPlist.strings */,
+				F5A94500189FAA01004BE0EA /* main.m */,
+				F5A94502189FAA01004BE0EA /* Forgetmenot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A94513189FAA01004BE0EA /* ForgetmenotTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A94519189FAA01004BE0EA /* ForgetmenotTests.m */,
+				F5A94514189FAA01004BE0EA /* Supporting Files */,
+			);
+			path = ForgetmenotTests;
+			sourceTree = "<group>";
+		};
+		F5A94514189FAA01004BE0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A94515189FAA01004BE0EA /* ForgetmenotTests-Info.plist */,
+				F5A94516189FAA01004BE0EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A944F0189FAA01004BE0EA /* Forgetmenot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A9451D189FAA01004BE0EA /* Build configuration list for PBXNativeTarget "Forgetmenot" */;
+			buildPhases = (
+				F5A944ED189FAA01004BE0EA /* Sources */,
+				F5A944EE189FAA01004BE0EA /* Frameworks */,
+				F5A944EF189FAA01004BE0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forgetmenot;
+			productName = Forgetmenot;
+			productReference = F5A944F1189FAA01004BE0EA /* Forgetmenot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A9450B189FAA01004BE0EA /* ForgetmenotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A94520189FAA01004BE0EA /* Build configuration list for PBXNativeTarget "ForgetmenotTests" */;
+			buildPhases = (
+				F5A94508189FAA01004BE0EA /* Sources */,
+				F5A94509189FAA01004BE0EA /* Frameworks */,
+				F5A9450A189FAA01004BE0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A94512189FAA01004BE0EA /* PBXTargetDependency */,
+			);
+			name = ForgetmenotTests;
+			productName = ForgetmenotTests;
+			productReference = F5A9450C189FAA01004BE0EA /* ForgetmenotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A944E9189FAA01004BE0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Benjamin Lanyado";
+				TargetAttributes = {
+					F5A9450B189FAA01004BE0EA = {
+						TestTargetID = F5A944F0189FAA01004BE0EA;
+					};
+				};
+			};
+			buildConfigurationList = F5A944EC189FAA01004BE0EA /* Build configuration list for PBXProject "Forgetmenot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5A944E8189FAA01004BE0EA;
+			productRefGroup = F5A944F2189FAA01004BE0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A944F0189FAA01004BE0EA /* Forgetmenot */,
+				F5A9450B189FAA01004BE0EA /* ForgetmenotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A944EF189FAA01004BE0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A944FF189FAA01004BE0EA /* InfoPlist.strings in Resources */,
+				F5A94507189FAA01004BE0EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A9450A189FAA01004BE0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A94518189FAA01004BE0EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A944ED189FAA01004BE0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A94505189FAA01004BE0EA /* BSLAppDelegate.m in Sources */,
+				F5A94501189FAA01004BE0EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A94508189FAA01004BE0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A9451A189FAA01004BE0EA /* ForgetmenotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A94512189FAA01004BE0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A944F0189FAA01004BE0EA /* Forgetmenot */;
+			targetProxy = F5A94511189FAA01004BE0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A944FD189FAA01004BE0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A944FE189FAA01004BE0EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5A94516189FAA01004BE0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A94517189FAA01004BE0EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A9451B189FAA01004BE0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5A9451C189FAA01004BE0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A9451E189FAA01004BE0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forgetmenot/Forgetmenot-Prefix.pch";
+				INFOPLIST_FILE = "Forgetmenot/Forgetmenot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5A9451F189FAA01004BE0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forgetmenot/Forgetmenot-Prefix.pch";
+				INFOPLIST_FILE = "Forgetmenot/Forgetmenot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5A94521189FAA01004BE0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forgetmenot.app/Forgetmenot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forgetmenot/Forgetmenot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ForgetmenotTests/ForgetmenotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5A94522189FAA01004BE0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forgetmenot.app/Forgetmenot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forgetmenot/Forgetmenot-Prefix.pch";
+				INFOPLIST_FILE = "ForgetmenotTests/ForgetmenotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A944EC189FAA01004BE0EA /* Build configuration list for PBXProject "Forgetmenot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A9451B189FAA01004BE0EA /* Debug */,
+				F5A9451C189FAA01004BE0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A9451D189FAA01004BE0EA /* Build configuration list for PBXNativeTarget "Forgetmenot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A9451E189FAA01004BE0EA /* Debug */,
+				F5A9451F189FAA01004BE0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5A94520189FAA01004BE0EA /* Build configuration list for PBXNativeTarget "ForgetmenotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A94521189FAA01004BE0EA /* Debug */,
+				F5A94522189FAA01004BE0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A944E9189FAA01004BE0EA /* Project object */;
+}
