@@ -62,14 +62,14 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // every array has a count, which will be an integer
-    return [self.todoItems count];
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
     // Return the number of rows in the section.
-    return 1;
+    return [self.todoItems count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -153,7 +153,8 @@
         //creat an array of indexpaths the we will be deleting (1)
         NSArray *indexPaths = @[indexPath];
         //twll the tableview to delete a cell
-        [tableView deleteRowsAtIndexPaths:indexPath withRowAnimation:UITableViewRowAnimationFade];
+        [tableView deleteRowsAtIndexPaths:
+         indexPaths withRowAnimation:UITableViewRowAnimationFade];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
