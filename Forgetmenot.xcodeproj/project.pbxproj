@@ -19,6 +19,10 @@
 		F5A94510189FAA01004BE0EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A944F8189FAA01004BE0EA /* UIKit.framework */; };
 		F5A94518189FAA01004BE0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A94516189FAA01004BE0EA /* InfoPlist.strings */; };
 		F5A9451A189FAA01004BE0EA /* ForgetmenotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A94519189FAA01004BE0EA /* ForgetmenotTests.m */; };
+		F5A94526189FB4DB004BE0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A94525189FB4DB004BE0EA /* Main.storyboard */; };
+		F5A94529189FBE21004BE0EA /* BSLTodoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A94528189FBE21004BE0EA /* BSLTodoTableViewController.m */; };
+		F5A9452C189FC6A8004BE0EA /* BSLTodoitem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A9452B189FC6A8004BE0EA /* BSLTodoitem.m */; };
+		F5F9904918A110EA008DF88C /* BSLAddTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F9904818A110EA008DF88C /* BSLAddTodoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		F5A94515189FAA01004BE0EA /* ForgetmenotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForgetmenotTests-Info.plist"; sourceTree = "<group>"; };
 		F5A94517189FAA01004BE0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5A94519189FAA01004BE0EA /* ForgetmenotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetmenotTests.m; sourceTree = "<group>"; };
+		F5A94525189FB4DB004BE0EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F5A94527189FBE21004BE0EA /* BSLTodoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLTodoTableViewController.h; sourceTree = "<group>"; };
+		F5A94528189FBE21004BE0EA /* BSLTodoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLTodoTableViewController.m; sourceTree = "<group>"; };
+		F5A9452A189FC6A8004BE0EA /* BSLTodoitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLTodoitem.h; sourceTree = "<group>"; };
+		F5A9452B189FC6A8004BE0EA /* BSLTodoitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLTodoitem.m; sourceTree = "<group>"; };
+		F5F9904718A110EA008DF88C /* BSLAddTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLAddTodoViewController.h; sourceTree = "<group>"; };
+		F5F9904818A110EA008DF88C /* BSLAddTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLAddTodoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +118,13 @@
 		F5A944FA189FAA01004BE0EA /* Forgetmenot */ = {
 			isa = PBXGroup;
 			children = (
+				F5A9452E189FC86B004BE0EA /* Controller */,
+				F5A9452D189FC70A004BE0EA /* Model */,
 				F5A94503189FAA01004BE0EA /* BSLAppDelegate.h */,
 				F5A94504189FAA01004BE0EA /* BSLAppDelegate.m */,
 				F5A94506189FAA01004BE0EA /* Images.xcassets */,
 				F5A944FB189FAA01004BE0EA /* Supporting Files */,
+				F5A94525189FB4DB004BE0EA /* Main.storyboard */,
 			);
 			path = Forgetmenot;
 			sourceTree = "<group>";
@@ -142,6 +156,26 @@
 				F5A94516189FAA01004BE0EA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A9452D189FC70A004BE0EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5A9452A189FC6A8004BE0EA /* BSLTodoitem.h */,
+				F5A9452B189FC6A8004BE0EA /* BSLTodoitem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F5A9452E189FC86B004BE0EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5A94527189FBE21004BE0EA /* BSLTodoTableViewController.h */,
+				F5A94528189FBE21004BE0EA /* BSLTodoTableViewController.m */,
+				F5F9904718A110EA008DF88C /* BSLAddTodoViewController.h */,
+				F5F9904818A110EA008DF88C /* BSLAddTodoViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +226,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Benjamin Lanyado";
 				TargetAttributes = {
+					F5A944F0189FAA01004BE0EA = {
+						DevelopmentTeam = N32YW6W5JF;
+					};
 					F5A9450B189FAA01004BE0EA = {
 						TestTargetID = F5A944F0189FAA01004BE0EA;
 					};
@@ -220,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A94526189FB4DB004BE0EA /* Main.storyboard in Resources */,
 				F5A944FF189FAA01004BE0EA /* InfoPlist.strings in Resources */,
 				F5A94507189FAA01004BE0EA /* Images.xcassets in Resources */,
 			);
@@ -242,6 +280,9 @@
 			files = (
 				F5A94505189FAA01004BE0EA /* BSLAppDelegate.m in Sources */,
 				F5A94501189FAA01004BE0EA /* main.m in Sources */,
+				F5F9904918A110EA008DF88C /* BSLAddTodoViewController.m in Sources */,
+				F5A9452C189FC6A8004BE0EA /* BSLTodoitem.m in Sources */,
+				F5A94529189FBE21004BE0EA /* BSLTodoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +401,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forgetmenot/Forgetmenot-Prefix.pch";
 				INFOPLIST_FILE = "Forgetmenot/Forgetmenot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,10 +417,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forgetmenot/Forgetmenot-Prefix.pch";
 				INFOPLIST_FILE = "Forgetmenot/Forgetmenot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,6 +489,7 @@
 				F5A9451F189FAA01004BE0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5A94520189FAA01004BE0EA /* Build configuration list for PBXNativeTarget "ForgetmenotTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +498,7 @@
 				F5A94522189FAA01004BE0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
